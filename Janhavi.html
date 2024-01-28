@@ -2,7 +2,38 @@
 <html>
 <head>
     <title>Us</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; 
+}
+   .background-container {
+    background-image: url('us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.751); 
+    border: 2px beige; 
+    padding: 2px;
+    margin: 2px;
+    border-radius: 1.5px; 
+    position: center;
+    z-index: 1;
+}
+    </style>
 </head>
 <body>
     <div class="background-container">
